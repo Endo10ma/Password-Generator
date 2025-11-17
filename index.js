@@ -19,7 +19,7 @@ function passwordGenerator(){
     let pwdlength
 
     if (pwLength.value.length === 0){
-        pwdlength = 10
+        pwdlength = 15
     }
     else{
         pwdlength = parseInt(pwLength.value)
