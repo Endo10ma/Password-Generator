@@ -1,3 +1,18 @@
+
+.karla-font {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 800; */
+  font-style: normal;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -9,22 +24,27 @@ body {
     box-sizing: border-box;
     padding-top: 60px;
     padding-left: 52px;
+
 }
 
 .container h1{
-    font-family: Karia;
-    width: 354px;
+    font-family: "Karla", sans-serif;
+    width: 360px;
     height: 80px;
     margin-bottom: 0px;
     font-size: 40px;
     color: #D5D4D8;
     font-weight: 800;
+    /* background-color: white; */
+    line-height: 40px;
+    letter-spacing: -2.5%;
 }
 
 .container p{
-    font-family: inter;
-    margin-top: 20px;
+    font-family: "inter";
+    margin-top: 16px;
     font-size: 20px;
+    line-height: 28px;
     font-weight: 400;
     color: #D5D4D8
 }
@@ -36,5 +56,45 @@ span{
 hr{
     border-color: #2f3e53;
     width: 446px;
+    margin: 16px;
     margin-left: 0px;
 }
+
+button{
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    background-color:#10b981;
+    font-family: "Inter";
+    font-size: 16px;
+    color: #FFFFFF;
+    margin:16px;
+    margin-left:0px;
+    font-weight: 500;
+    border: 0;
+}
+
+.pwdSection{
+    margin-top:16px;
+    display: flex;
+    justify-content:left;
+}
+
+.pwds{
+    /* text-align: center; */
+    margin-top: 16px;
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    margin-right:32px;
+    border-radius: 6px;
+    color: #55f991;
+    font-size: 16px;
+    font-weight: 500px;
+    box-sizing: border-box;
+    font-family: "inter";
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

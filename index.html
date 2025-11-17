@@ -1,15 +1,24 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
-        <h1>Generate a <br><span>random password</span></h1>
+        <h1>Generate a <span>random password</span></h1>
         <p>Never use an insecure password again.</p>
-        <button>Generate passwords</button>
+        <div class="inputs">
+            <button onclick="passwordGenerator(23)">Generate passwords</button>
+            <input type="number" placeholder="Length of Password" id="passwordLength">
+        </div>
         <hr>
-        <div></div>
-        <div></div>
+        <div class="pwdSection">
+            <div class="pwds" id="pass1">gfsgsfg</div>
+            <div class="pwds" id="pass2">shdshsdh</div>
+        </div>
         </div>
         <script src="index.js"></script>
     </body>
