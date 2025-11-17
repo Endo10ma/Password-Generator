@@ -1,3 +1,40 @@
 body {
     margin: 0;
 }
+
+.container{
+    background-color: #1f2937;
+    width: 550px;
+    height: 550px;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 52px;
+}
+
+.container h1{
+    font-family: Karia;
+    width: 354px;
+    height: 80px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: #D5D4D8;
+    font-weight: 800;
+}
+
+.container p{
+    font-family: inter;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #D5D4D8
+}
+
+span{
+    color: #55f991;
+}
+
+hr{
+    border-color: #2f3e53;
+    width: 446px;
+    margin-left: 0px;
+}
